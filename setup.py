@@ -10,7 +10,7 @@ setup(
     description="IOKA Python Asynchronous Client Library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mortilele/rest-aiohttp",
+    url="https://github.com/mortilele/ioka-python-sdk",
     author="Alik Akhmetov",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -18,7 +18,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',  # Minimum version requirement of the package
-    packages=["restaiohttp"],
+    packages=["ioka"],
     include_package_data=True,
-    install_requires=["aiohttp"]
+    install_requires=["rest-aiohttp"]
 )
