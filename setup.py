@@ -18,7 +18,6 @@ setup(
     version=VERSION,
 
     description="IOKA Asynchronous Python Client Library",
-    long_description_content_type="text/markdown",
     long_description=long_description,
 
     url="https://github.com/mortilele/ioka-python-sdk",
