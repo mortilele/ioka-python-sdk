@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 # This call to setup() does all the work
 setup(
     name="ioka",
-    version="1.0.0",
+    version="1.1.0",
     description="IOKA Python Asynchronous Client Library",
     long_description=long_description,
     long_description_content_type="text/markdown",

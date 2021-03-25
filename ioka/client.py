@@ -35,6 +35,9 @@ class IOKA:
         async with API(url=url) as api:
             response = await api.post(data=data, headers=self._headers)
             try:
+                # TODO: error handling
+                if 'detail' in response:
+                    return response
                 model = schemas.RegisterPaymentResponse(**response)
                 return model
             except ValidationError as e:
