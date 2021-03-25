@@ -48,3 +48,14 @@ payment = RegisterPaymentRequest(**data)
 ioka_response = await ioka_client.register_payment(payment)
 ```
 В случае успеха возвращает строку типа ``URL``.
+
+TODO:
+=============
+- [ ] Validations
+- [ ] Error response
+- [x] Pydantic schemas
+- [ ] Async to sync
+- [ ] Signature verification method
+- [ ] Implement rest-aiohttp in more smart way
+- [ ] Update README, add another methods
+- [ ] Document methods
