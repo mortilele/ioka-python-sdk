@@ -6,9 +6,11 @@ IOKA Asynchronous Python Client Library
 
 Установка
 =========
-```shell script
-pip install ioka
-```
+
+::
+
+    pip install ioka
+
 
 Требования
 ==========
@@ -31,8 +33,9 @@ Python 3.7+
 
 Обращение к API осуществляется через методы клиента.
 
-**Регистрация платежа** ([описание](https://ioka.kz/documentation/payment-register))
+| **Регистрация платежа** ([описание](https://ioka.kz/documentation/payment-register))
 
+.. code:: python
 
     from ioka.schemas import RegisterPaymentRequest
     data = {
