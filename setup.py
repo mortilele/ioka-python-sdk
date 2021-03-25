@@ -1,4 +1,4 @@
-from setuptools import setup, Extension
+from setuptools import setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 # This call to setup() does all the work
 setup(
     name="ioka",
-    version="1.1.2",
+    version="1.1.3",
     description="IOKA Asynchronous Python Client Library",
     long_description=long_description,
     long_description_content_type="text/markdown",
