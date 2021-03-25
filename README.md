@@ -1,5 +1,6 @@
 IOKA Asynchronous Python Client Library
 ======================================
+[![Foo](https://img.shields.io/pypi/v/ioka?label=ioka)](https://pypi.org/project/ioka/)
 
 Клиент для платежного сервиса [**IOKA**](https://ioka.kz). Позволяет обращаться к [**API IOKA**](https://ioka.kz/documentation) из кода на Python.
 
